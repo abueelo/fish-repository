@@ -23,10 +23,11 @@ header{
 }
 
 body{
-    background-image:linear-gradient(to bottom,rgb(52,152,194), rgb(10, 150, 209));
+    background-image:linear-gradient(to bottom,rgb(32, 143, 180), rgb(121, 214, 239));
     
     /*background-color:rgb(55, 174, 221);*/
     margin: 0px;
+    margin-left: -10px;
     min-width: 740px;
 }
 
@@ -47,10 +48,10 @@ body img{
 }
 
 hr.solid{
-    border-top: 1px solid #585858;
-    border-bottom: 2px solid #585858;
-    border-left: 2px solid #585858;
-    border-right: 2px solid #585858;
+    border-top: 1px solid #242424; /* 242424 */
+    border-bottom: 2px solid #242424;
+    border-left: 2px solid #242424;
+    border-right: 2px solid #242424;
     width: 50%;
     max-width: 400px;
 }
@@ -112,7 +113,7 @@ line{
 }
 
 table{
-    margin-left: 30px;
+    margin-left: 15px;
     margin-right: 0px;
     align-items: center;
     table-layout: fixed;
@@ -137,11 +138,14 @@ table img{
 }
 
 footer{
-    background-image:linear-gradient(to bottom, rgb(10, 150, 209), rgb(4, 125, 177));
-    );
+    /*background-image:linear-gradient(to bottom, rgb(10, 150, 209), rgb(4, 125, 177));*/
+    background-image: url("./sea-floor.jpeg");
+    background-position: bottom;
     margin: 0;
-    height: 50px;
+    margin-top: -50px;
+    height: 275px;
     position: relative;
+    width: 101%;
 }
 
 .crossthrough{
@@ -153,14 +157,15 @@ footer{
 }
 
 .footer-div{
-    text-align: right;
+    text-align: left;
 }
 
 .footer-text{
     margin: 0;
-    top: 50%;
-    -ms-transform: translateY(90%);
-    transform: translateY(90%);
+    bottom: 0;
+    right: 10px;
+    text-align: left;
+    position: absolute;
 }
 
 .text{
@@ -195,7 +200,7 @@ a:visited {
 }
   
 a:hover {
-    color: aliceblue;
+    color: red;
     background-color: transparent;
     text-decoration: none;
 }
