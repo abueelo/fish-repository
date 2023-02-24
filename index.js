@@ -1,4 +1,3 @@
-
 function updatePage(){
     console.log("test");
     const xhttp = new XMLHttpRequest();
